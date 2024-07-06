@@ -1,3 +1,3 @@
-# Codewars
+# Coding Challenges
 
-### This repo contains code for me to practice codewars to further enhance my skills in coding and logical thinking.
+### This repository contains code for practicing LeetCode and CodeWars questions, aimed at enhancing my coding skills and logical thinking.
