@@ -19,3 +19,11 @@ const minMax2 = arr => {
 
 const profit2 = minMax2([1, 2, 3, 4, 5])
 console.log(profit2, 'profit2')
+
+const minMax3 = arr => {
+  arr.sort((a, b) => a - b)
+  return [arr[0], arr[arr.length - 1]]
+}
+
+const profit3 = minMax3([1, 2, 3, 4, 5])
+console.log(profit3, 'profit3')
