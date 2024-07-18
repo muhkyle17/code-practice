@@ -10,3 +10,10 @@ function countRedBeads(n) {
 
 const redBeadsCount = countRedBeads(3)
 console.log(redBeadsCount, 'redBeadsCount')
+
+function countRedBeads2(n) {
+  return n < 2 ? 0 : 2 * n - 2
+}
+
+const redBeadsCount2 = countRedBeads2(3)
+console.log(redBeadsCount2, 'redBeadsCount')
