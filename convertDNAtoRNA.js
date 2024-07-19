@@ -19,3 +19,12 @@ const DNAtoRNA2 = dna =>
 
 const RNA2 = DNAtoRNA2('GCAT')
 console.log(RNA2, 'RNA2')
+
+const DNAtoRNA3 = dna =>
+  [...dna.toLowerCase()]
+    .map(item => (item === 't' ? 'u' : item))
+    .join('')
+    .toUpperCase()
+
+const RNA3 = DNAtoRNA3('GCAT')
+console.log(RNA3, 'RNA3')
