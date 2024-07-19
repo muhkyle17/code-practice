@@ -9,3 +9,12 @@ const doubleChar = str => {
 
 const doubled = doubleChar('String')
 console.log(doubled, 'doubled')
+
+const doubleChar2 = str => {
+  let doubledArray = []
+  str.split('').map(item => doubledArray.push(item, item))
+  return doubledArray.join('')
+}
+
+const doubled2 = doubleChar2('String')
+console.log(doubled2, 'doubled2')
