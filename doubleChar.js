@@ -28,3 +28,12 @@ const doubleChar3 = str => {
 
 const doubled3 = doubleChar3('String')
 console.log(doubled3, 'doubled3')
+
+const doubleChar4 = str =>
+  str
+    .split('')
+    .map(char => char + char)
+    .join('')
+
+const doubled4 = doubleChar4('String')
+console.log(doubled4, 'doubled4')
