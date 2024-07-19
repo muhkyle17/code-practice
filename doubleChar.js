@@ -18,3 +18,13 @@ const doubleChar2 = str => {
 
 const doubled2 = doubleChar2('String')
 console.log(doubled2, 'doubled2')
+
+const doubleChar3 = str => {
+  return str
+    .split('')
+    .map(char => char + char)
+    .join('')
+}
+
+const doubled3 = doubleChar3('String')
+console.log(doubled3, 'doubled3')
