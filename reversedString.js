@@ -17,6 +17,16 @@ String.prototype.reverse2 = function () {
   return reversedArray.join('')
 }
 
-// Example usage:
 const reversed2 = 'Super awesome string'.reverse2()
 console.log(reversed2, 'reversed2') // => "gnirts emosewa repuS"
+
+String.prototype.reverse3 = function () {
+  let rev = []
+  for (let letter of this) {
+    rev.unshift(letter)
+  }
+  return rev.join('')
+}
+
+const reversed3 = 'Super awesome string'.reverse3()
+console.log(reversed3, 'reversed3') // => "gnirts emosewa repuS"
